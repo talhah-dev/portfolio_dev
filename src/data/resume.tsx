@@ -5,12 +5,8 @@ import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Python } from "@/components/ui/svgs/python";
-import { Golang } from "@/components/ui/svgs/golang";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
-import { Kubernetes } from "@/components/ui/svgs/kubernetes";
-import { Java } from "@/components/ui/svgs/java";
-import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
   name: "M Talha",
@@ -23,19 +19,45 @@ export const DATA = {
   summary:
     "Full-Stack & AI Engineer with 3 years of experience [delivering 250+ production-ready web applications on Fiverr](/#work) with consistent 5-star ratings. Specialized in **Next.js**, **React**, **TypeScript**, and **Node.js**, with proven experience [architecting multi-agent AI platforms](/#projects) (LangChain, LangGraph, multi-LLM orchestration) and [scalable database systems](/#skills) (PostgreSQL, MongoDB, Redis). Currently a [final-year Computer Science student at IQRA University](/#education) focused on shipping high-performance web and AI products.",
   avatarUrl: "/me.png",
-  skills: [
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
-    { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
-    { name: "Java", icon: Java },
-    { name: "C++", icon: Csharp },
-  ],
+  skills: {
+    "AI & Agentic Systems": [
+      { name: "LangChain", icon: Icons.langchain },
+      { name: "LangGraph", icon: Icons.langgraph },
+      { name: "Multi-Agent Orchestration", icon: Icons.multiAgent },
+      { name: "LLM Integration", icon: Icons.llm },
+      { name: "Tavily Web Search", icon: Icons.tavily },
+      { name: "AI Engine Optimization (AEO)", icon: Icons.aeo },
+    ],
+    "Frontend Development": [
+      { name: "Next.js", icon: NextjsIconDark },
+      { name: "React.js", icon: ReactLight },
+      { name: "TypeScript", icon: Typescript },
+      { name: "JavaScript (ES6+)", icon: Icons.javascript },
+      { name: "Tailwind CSS", icon: Icons.tailwindcss },
+      { name: "HTML5", icon: Icons.html5 },
+      { name: "CSS3", icon: Icons.css3 },
+    ],
+    "Backend & Databases": [
+      { name: "Node.js", icon: Nodejs },
+      { name: "Express.js", icon: Icons.express },
+      { name: "Microservices Architecture", icon: Icons.microservices },
+      { name: "PostgreSQL (Neon)", icon: Postgresql },
+      { name: "MongoDB", icon: Icons.mongodb },
+      { name: "Redis", icon: Icons.redis },
+      { name: "Drizzle ORM", icon: Icons.drizzle },
+      { name: "Better Auth", icon: Icons.betterauth },
+      { name: "Firebase OAuth", icon: Icons.firebase },
+    ],
+    "DevOps, Cloud & Tools": [
+      { name: "Docker", icon: Docker },
+      { name: "AWS (S3)", icon: Icons.aws },
+      { name: "Vercel", icon: Icons.vercel },
+      { name: "Git", icon: Icons.git },
+      { name: "Postman", icon: Icons.postman },
+      { name: "Custom Domain & DNS Configuration", icon: Icons.dns },
+      { name: "Technical SEO", icon: Icons.seo },
+    ],
+  },
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },

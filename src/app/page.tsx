@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -114,18 +113,34 @@ export default function Page() {
         </div>
       </section>
       <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-4">
+        <div className="flex min-h-0 flex-col gap-y-6">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-2">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2">
-                  {skill.icon && <skill.icon className="size-4 rounded overflow-hidden object-contain" />}
-                  <span className="text-foreground text-sm font-medium">{skill.name}</span>
+          <div className="flex flex-col gap-y-6">
+            {Object.entries(DATA.skills).map(([category, skills], categoryIndex) => (
+              <div key={category} className="flex flex-col gap-y-3">
+                <BlurFade delay={BLUR_FADE_DELAY * 9.5 + categoryIndex * 0.05}>
+                  <h3 className="text-sm font-semibold tracking-wide text-foreground/80">
+                    {category}
+                  </h3>
+                </BlurFade>
+                <div className="flex flex-wrap gap-2">
+                  {skills.map((skill, id) => (
+                    <BlurFade
+                      key={skill.name}
+                      delay={BLUR_FADE_DELAY * 10 + (categoryIndex * 6 + id) * 0.02}
+                    >
+                      <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2">
+                        {"icon" in skill && skill.icon && (
+                          <skill.icon className="size-4 rounded overflow-hidden object-contain" />
+                        )}
+                        <span className="text-foreground text-sm font-medium">{skill.name}</span>
+                      </div>
+                    </BlurFade>
+                  ))}
                 </div>
-              </BlurFade>
+              </div>
             ))}
           </div>
         </div>
