@@ -69,7 +69,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
             <h2 className="text-xl font-bold">Education</h2>
           </BlurFade>
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-6">
             {DATA.education.map((education, index) => (
               <BlurFade
                 key={education.school}
@@ -86,13 +86,13 @@ export default function Page() {
                       <img
                         src={education.logoUrl}
                         alt={education.school}
-                        className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border overflow-hidden object-contain flex-none"
+                        className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border overflow-hidden object-contain flex-none bg-white"
                       />
                     ) : (
                       <div className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border bg-muted flex-none" />
                     )}
                     <div className="flex-1 min-w-0 flex flex-col gap-0.5">
-                      <div className="font-semibold leading-none flex items-center gap-2">
+                      <div className="font-semibold text-sm leading-none flex items-center gap-2">
                         {education.school}
                         <ArrowUpRight className="h-3.5 w-3.5 text-muted-foreground opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" aria-hidden />
                       </div>

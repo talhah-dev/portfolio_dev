@@ -63,42 +63,32 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
+    email: "talha18513@gmail.com",
     tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/talhah-dev",
         icon: Icons.github,
         navbar: true,
       },
-
       LinkedIn: {
         name: "LinkedIn",
         url: "https://dub.sh/dillion-linkedin",
         icon: Icons.linkedin,
-
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
-
+      Instagram: {
+        name: "Instagram",
+        url: "https://www.instagram.com/m_talha.h/",
+        icon: Icons.instagram,
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
-      email: {
-        name: "Send Email",
-        url: "#",
+      Email: {
+        name: "Email",
+        url: "mailto:talha18513@gmail.com",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },

@@ -7,6 +7,7 @@
 - **Phone:** 0315-2666263
 - **Email:** [talha18513@gmail.com](mailto:talha18513@gmail.com)
 - **GitHub:** [https://github.com/talhah-dev](https://github.com/talhah-dev)
+- **Instagram:** [https://www.instagram.com/m_talha.h/](https://www.instagram.com/m_talha.h/)
 - **Current Portfolio:** [https://portfolio-talha-1.vercel.app](https://portfolio-talha-1.vercel.app)
 
 ---
