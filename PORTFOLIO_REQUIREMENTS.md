@@ -68,7 +68,8 @@ Full-Stack & AI Engineer with 3 years of experience delivering 250+ production-r
 
 ## Education & Certifications
 
-- **Bachelor of Science in Computer Science** — IQRA University, Karachi *(Final Year Student)*
-- **Diploma in Full Stack Development** — Techzone *(Completed)*
-- **Certificate in Front End Development** — Computer Academy *(Completed)*
+- **Bachelor of Science in Computer Science (BSCS)** — IQRA University, Karachi *(2023 – Present)*
+- **Diploma in Full Stack Development** — Techzone Institute *(2022 – 2023)*
+- **Intermediate (HSC / Pre-Engineering / Computer Science)** — Army Public School & College (APS COD) *(2020 – 2022)*
+- **Secondary School Certificate (SSC / Matriculation)** — Bahria College *(Completed 2020)*
 
