@@ -20,9 +20,9 @@ Full-Stack & AI Engineer with 3 years of experience delivering 250+ production-r
 ## Technical Skills
 
 - **AI & Agentic Systems:** LangChain, LangGraph, Multi-Agent Orchestration, LLM Integration (Groq, OpenRouter/DeepSeek, Gemini), Tavily Web Search API, AI Engine Optimization (AEO)
-- **Frontend Development:** Next.js (App Router), React.js, TypeScript, JavaScript (ES6+), Tailwind CSS, HTML5, CSS3, WordPress, Shopify
-- **Backend & Databases:** Node.js, Express.js, Microservices Architecture, PostgreSQL (Neon), MongoDB, Redis, Drizzle ORM, Better Auth, Firebase OAuth
-- **DevOps, Cloud & Tools:** Docker, AWS (S3), Vercel, Git, Postman, Custom Domain & DNS Configuration, Technical SEO (JSON-LD, Dynamic Sitemaps)
+- **Frontend Development:** Next.js (App Router), React.js, TypeScript, JavaScript (ES6+), Tailwind CSS, Bootstrap, SCSS, HTML5, CSS3, WordPress, Shopify
+- **Backend & Databases:** Node.js, Express.js, Microservices Architecture, PostgreSQL, Neon DB, MongoDB, Redis, Drizzle ORM, Zod, Better Auth, Clerk, Firebase OAuth
+- **DevOps, Cloud & Tools:** Docker, AWS (S3), Vercel, Cloudinary, Git, GitHub, Postman, Custom Domain & DNS Configuration, Technical SEO (JSON-LD, Dynamic Sitemaps)
 
 ---
 
